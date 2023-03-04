@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pretty Calculator</title>
+</head>
+<body onload="init();">
+    <div class="container">
+        <div class="calculator">
+            <form action="#" name="form-calculator" id="form-calculator">
+                <div class="calculator-screen">
+                    <p id="result"></p>
+                </div>
+                <div class="calculator-small-button">
+                    <input type="button" class="small-button" id="seven" value="7" />
+                    <input type="button" class="small-button" id="eight" value="8" />
+                    <input type="button" class="small-button" id="nine" value="9" />
+                    <input type="button" class="large-special-button" id="reset" value="C" />
+                </div>
+                <div class="calculator-small-button">
+                    <input type="button" class="small-button" id="four" value="4" />
+                    <input type="button" class="small-button" id="five" value="5" />
+                    <input type="button" class="small-button" id="six" value="6" />
+                    <input type="button" class="small-special-button" id="multiplication" value="*" />
+                    <input type="button" class="small-special-button" id="substraction" value="-" />
+                </div>
+                <div class="calculator-small-button">
+                    <input type="button" class="small-button" id="one" value="1" />
+                    <input type="button" class="small-button" id="two" value="2" />
+                    <input type="button" class="small-button" id="three" value="3" />
+                    <input type="button" class="large-button" id="addition" value="+" />
+                </div>
+                <div class="calculator-small-button">
+                    <input type="button" class="small-button" id="zero" value="0" />
+                    <input type="button" class="small-button" id="double" value="00" />
+                    <input type="button" class="small-special-button" id="division" value="/" />
+                    <input type="button" class="large-special-button" id="equal" value="=" />
+                </div>
+                <div class="calculator-footer">
+                    <p class="calculator-footer-disclaimer">
+                        <a href="https://github.com/saralvz" target="_blank">made with <3</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
